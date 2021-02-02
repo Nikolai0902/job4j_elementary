@@ -16,7 +16,7 @@ public class MultiMax {
     }
 
     public static void main(String[] args) {
-       int res = MultiMax.max(20, 4, 3);
+       int res = MultiMax.max(20, 4, 300);
         System.out.println(res);
     }
 }
