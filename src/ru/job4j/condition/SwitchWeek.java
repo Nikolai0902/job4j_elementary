@@ -39,12 +39,3 @@ public class SwitchWeek {
         System.out.println(name);
     }
 }
-
-
-
-
-
-
-
-
-
