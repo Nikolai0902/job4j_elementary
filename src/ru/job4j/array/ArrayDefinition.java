@@ -2,6 +2,7 @@ package ru.job4j.array;
 
 
 public class ArrayDefinition {
+
     public static void main(String[] args) {
         short[] ages = new short[10];
         System.out.println("" + ages.length);
@@ -12,7 +13,7 @@ public class ArrayDefinition {
 
         String[] names = new String[4];
         names[0] = "Petr";
-        names[1] = "Saha";
+        names[1] = "Alexsandr";
         names[2] = "Vlad";
         names[3] = "Nikolai";
         System.out.println(names[0]);
