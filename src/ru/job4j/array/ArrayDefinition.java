@@ -1,6 +1,5 @@
 package ru.job4j.array;
 
-import java.sql.SQLOutput;
 
 public class ArrayDefinition {
     public static void main(String[] args) {
@@ -10,5 +9,15 @@ public class ArrayDefinition {
         System.out.println(surnames.length);
         float[] prise = new float[40];
         System.out.println(prise.length);
+
+        String[] names = new String[4];
+        names[0] = "Petr";
+        names[1] = "Saha";
+        names[2] = "Vlad";
+        names[3] = "Nikolai";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
