@@ -8,7 +8,7 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        int maxRes = ChessBoard.way(7, 7, 1, 1);
-        System.out.println(maxRes);
+        int maxres = ChessBoard.way(7, 7, 1, 1);
+        System.out.println(maxres);
     }
 }

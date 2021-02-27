@@ -8,7 +8,7 @@ public class SwitchArray {
         return array;
     }
 
-    public static String[] swapTwo(String[] array, int source, int dest) { /* для Defragment */
+    public static String[] swapTwo(String[] array, int source, int dest) {
         String temp = array[source];
         array[source] = array[dest];
         array[dest] = temp;

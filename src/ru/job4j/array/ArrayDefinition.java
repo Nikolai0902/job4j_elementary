@@ -1,6 +1,5 @@
 package ru.job4j.array;
 
-
 public class ArrayDefinition {
 
     public static void main(String[] args) {
@@ -10,7 +9,6 @@ public class ArrayDefinition {
         System.out.println(surnames.length);
         float[] prise = new float[40];
         System.out.println(prise.length);
-
         String[] names = new String[4];
         names[0] = "Petr";
         names[1] = "Alexsandr";

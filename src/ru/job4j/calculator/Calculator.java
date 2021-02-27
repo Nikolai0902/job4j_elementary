@@ -7,13 +7,13 @@ public class Calculator {
     int sin  = 6;
     int four  = 4;
     int five  = 5;
-    int onePlusTwo = one + two;
-    int sixDivTwo = sin / two;
-    int fiveMinusTwo = five - two;
-    int fourTimeTwo = four * two;
-    System.out.println(onePlusTwo);
-    System.out.println(sixDivTwo);
-    System.out.println(fiveMinusTwo);
-    System.out.println(fourTimeTwo);
+    int sum = one + two;
+    int del = sin / two;
+    int raznost = five - two;
+    int umnogenie = four * two;
+    System.out.println(sum);
+    System.out.println(del);
+    System.out.println(raznost);
+    System.out.println(umnogenie);
     }
 }
